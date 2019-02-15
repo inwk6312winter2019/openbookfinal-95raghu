@@ -53,14 +53,14 @@ def opening_file(myfile):
 #Opening files
 myfile=open("Book1.txt")
 res=opening_file(myfile)
-print(res)
+print(result)
 
 myfile1=open("Book2.txt")
 res1=opening_file(myfile1)
-print(res1)
+print(result2)
 
 myfile2=open("Book3.txt")
 res2=opening_file(myfile2)
-print(res2)
+print(result3)
 
 
