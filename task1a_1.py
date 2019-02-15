@@ -45,7 +45,7 @@ def opening_file(myfile):
        line=the_punctuation(line)
        for word in line.split():
            l1.append(word.lower())
-       #b=unique_words(l1)
+       #b=unique_words(list1)
        d=count_the_article(l1)
    return d
 
